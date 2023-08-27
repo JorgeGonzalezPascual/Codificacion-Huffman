@@ -1,0 +1,250 @@
+V "GNAT Lib v2019"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_RECURSION
+RV NO_STANDARD_ALLOCATORS_AFTER_ELABORATION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV SPARK_05
+
+U main%b		main.adb		8cfe1566 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.handling%s  a-chahan.adb	a-chahan.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W d_priority_queue%s	d_priority_queue.adb	d_priority_queue.ali
+W darbolbinario%s	darbolbinario.adb	darbolbinario.ali
+W dcola%s		dcola.adb		dcola.ali
+Z interfaces%s		interfac.ads		interfac.ali
+W mapac%s		mapac.adb		mapac.ali
+Z system%s		system.ads		system.ali
+Z system.concat_3%s	s-conca3.adb		s-conca3.ali
+Z system.concat_4%s	s-conca4.adb		s-conca4.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20190518041256 76789da1 ada%s
+D a-charac.ads		20190518041256 2d3ec45b ada.characters%s
+D a-chahan.ads		20190518041256 1601a50f ada.characters.handling%s
+D a-except.ads		20190518041256 291912d5 ada.exceptions%s
+D a-inteio.ads		20190518041258 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20190518041256 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20190518041256 119b8fb3 ada.streams%s
+D a-tags.ads		20190518041258 491b781d ada.tags%s
+D a-textio.ads		20190518041258 aef4d56d ada.text_io%s
+D a-tiinio.ads		20190518041256 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20190518041256 0e9b276f ada.unchecked_conversion%s
+D d_priority_queue.ads	20210427095750 07464a0e d_priority_queue%s
+D d_priority_queue.adb	20210427095750 b0b22951 d_priority_queue%b
+D darbolbinario.ads	20210427095750 5add0a4a darbolbinario%s
+D darbolbinario.adb	20210427095750 45fb9370 darbolbinario%b
+D dcola.ads		20210427095750 d49d8a9d dcola%s
+D dcola.adb		20210427095750 7c56156c dcola%b
+D interfac.ads		20190518041256 5ab55268 interfaces%s
+D i-cstrea.ads		20190518041256 e53d8b8e interfaces.c_streams%s
+D main.adb		20210513090358 003e9dea main%b
+D mapac.ads		20210430134352 4b78bb93 mapac%s
+D mapac.adb		20210427095750 63896a47 mapac%b
+D system.ads		20190518041258 32a08138 system%s
+D s-conca3.ads		20190518041258 0b705ca5 system.concat_3%s
+D s-conca4.ads		20190518041258 7e642b20 system.concat_4%s
+D s-crtl.ads		20190518041256 0ebbdb71 system.crtl%s
+D s-exctab.ads		20190518041256 54135002 system.exception_table%s
+D s-ficobl.ads		20190518041258 078245e4 system.file_control_block%s
+D s-imgint.ads		20190518041256 02dbe0c2 system.img_int%s
+D s-parame.ads		20190518041258 48ec542b system.parameters%s
+D s-secsta.ads		20190518041258 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20190518041256 a7318a92 system.soft_links%s
+D s-stache.ads		20190518041258 a37c21ec system.stack_checking%s
+D s-stalib.ads		20190518041258 09bd3940 system.standard_library%s
+D s-stoele.ads		20190518041258 2dc34a04 system.storage_elements%s
+D s-traent.ads		20190518041256 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20190518041256 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20190518041256 1b7d22d2 system.wch_con%s
+G a e
+G c Z b b [main standard 6 11 none]
+G r i none [main standard 6 11 none] [mapac standard 5 9 none]
+G r i none [main standard 6 11 none] [darbolbinario standard 4 9 none]
+G r i none [main standard 6 11 none] [d_priority_queue standard 7 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 20|1r6 1r35 2r6 2r35 3r6 3r35
+X 2 a-charac.ads
+16K13*Characters 18e19 20|3r10 3r39
+X 3 a-chahan.ads
+36K24*Handling 159e28 20|3w21 3r50
+X 5 a-inteio.ads
+18K13*Integer_Text_IO[10|46] 20|2w10 2r39
+X 9 a-textio.ads
+57K13*Text_IO 727e16 20|1w10 1r39
+64P9*File_Type 20|101r18 271r17
+66n23*In_File{66E9} 20|105r30
+66n32*Out_File{66E9} 20|286r32
+99U14*Create 20|286s7
+101e7 Mode{66E9} 20|286r24
+102a7 Name{string} 20|286r41
+114U14*Open 20|105s7
+116e7 Mode{66E9} 20|105r22
+117a7 Name{string} 20|105r38
+129U14*Close 20|111s7 306s7
+312V13*End_Of_File{boolean} 20|107s17
+378U14*Get 20|108s10
+386U14*Put 20|299s13
+459U14*Put 20|296s10
+498U14*Put_Line 20|301s10
+508U14*Put_Line 20|69s10 209s10
+X 12 d_priority_queue.ads
+2i4 size{positive} 20|53r60
+3+9 item 20|53r72
+4V19 "<"{boolean} 20|53r89
+5V19 ">"{boolean} 20|53r104
+7k9*d_priority_queue 26e21 20|4w28 53r42
+9R9 priority_queue 20|117r58[53] 150r38[53] 190r43[53] 270r54[53] 311r7[53]
+14U14 empty 20|314s4[53]
+15U14 put 20|141s10[53] 179s13[53] 185s7[53]
+16U14 delete_least 20|163s10[53] 168s13[53]
+17V13 get_least{20|34P9} 20|162s18[53] 167s20[53] 201s17[53] 284s12[53]
+18V13 is_empty{boolean} 20|160s17[53] 165s17[53]
+X 14 darbolbinario.ads
+3+9 elem 20|30r42
+4k9*darbolbinario 31e18 20|4w13 30r27
+6R9 arbol 20|34r26[30] 123r17[30] 136r19[30] 176r20[30] 210r25[30] 216r25[30]
+. 227r33[30] 229r13[30]
+11U14 avacio 20|125s7[30] 137s10[30] 242s13[30] 254s13[30]
+12V13 esta_vacio{boolean} 20|213s17[30] 218s17[30] 234s14[30] 244s20[30]
+. 256s20[30]
+13U14 graft 20|138s10[30] 178s13[30]
+14U14 raiz 20|39s7[30] 40s7[30] 48s7[30] 49s7[30] 171s13[30] 172s13[30] 208s10[30]
+. 236s10[30]
+15U14 izq 20|211s10[30] 243s13[30]
+16U14 der 20|217s10[30] 255s13[30]
+X 16 dcola.ads
+5k12*dcola 37e13 20|4w45 192r29
+8R12 cola 20|195r10[192]
+16U17 poner 20|202s7[192] 214s13[192] 219s13[192]
+17U17 borrar_primero 20|206s10[192]
+18V16 coger_primero{20|34P9} 20|205s20[192]
+19V16 esta_vacia{boolean} 20|204s17[192]
+X 20 main.adb
+6U11*Main 6b11 323l5 323t9
+10E12 alfabet{character} 20r53 61r11 77r53 80r14 102r18 118r11 272r11
+13R9 tcodi 16e15 227r117 275r13
+14a7 c{string} 245m21 257m21 299r31
+15i7 l{integer} 246m21 258m21 281m12 298r27
+20K12 d_taula_frequencias[21|5] 21r8
+25R9 node 28e15 30r50 37r21 46r21 121r13 151r15 152r15 153r13 198r16 228r13
+26e7 caracter{character} 132m15 174m18 209r39 237r25
+27i7 frequencia{integer} 41r20 41r39 50r20 50r40 133m15 173m18 173r38 173r56
+. 209r77
+30K12 darbrol[14|4] 31r8
+34P9 parbol(14|6R9[30]) 36r29 45r29 53r80 122r10 154r13 155r12 156r10 192r35
+. 196r17 197r18 276r12
+36V13 major{boolean} 36b13 36>19 36>22 42l8 42t13 53r110
+36p19 a1{34P9} 39r12
+36p22 a2{34P9} 40r12
+37r7 item1{25R9} 39m19 41r14
+37r14 item2{25R9} 40m19 41r33
+45V13 menor{boolean} 45b13 45>19 45>22 51l8 51t13 53r95
+45p19 a1{34P9} 48r12
+45p22 a2{34P9} 49r12
+46r7 item1{25R9} 48m19 50r14
+46r14 item2{25R9} 49m19 50r34
+53K12 d_priority_queue_arbol[12|7] 54r8
+60U14 recorrido 60b14 60>24 72l8 72t17
+60r24 s{21|7R9[20]} 65r15 67r18 70r20
+61e7 k{10E12} 67m25 69r31
+62i7 x{integer} 67m28 69r54
+63r7 it{21|18R9[20]} 65m18 66r23 67r21 70m23 70r23
+77U14 actFreqTabla 77b14 77=27 77>47 95l8 95t20 109s10
+77r27 s{21|7R9[20]} 83r15 85r18 88r25 92m20 93m18
+77e47 c{10E12} 87r14 92r22 93r20
+78b7 found{boolean} 83m23 84r35 87m26 91r10
+79r7 it{21|18R9[20]} 83m18 84r23 85r21 88m28 88r28
+80e7 k{10E12} 85m25 87r18
+81i7 x{integer} 85m28 92r24
+100U14 readFile 100b14 100=23 112l8 112t16 316s4
+100r23 s{21|7R9[20]} 109m23
+101p7 f_entrada{9|64P9} 105m12 105r12 107r29 108r14 111m13 111r13
+102e7 c{10E12} 108m24 109r25
+117U14 inIt_ArbolBin 117b14 117=28 117=48 145l8 145t21 318s4
+117r28 s{21|7R9[20]} 127r15 129r18 143r20
+117r48 h{12|9R9[53]} 141m15
+118e7 k{10E12} 129m25 132r26
+119i7 x{integer} 129m28 133r28
+120r7 it{21|18R9[20]} 127m18 128r23 129r21 143m23 143r23
+121r7 nodo{25R9} 132m10 133m10 138r42
+122p7 a{34P9} 136m10 137r17 138r16 141r18
+123r7 auxArbol{14|6R9[30]} 125m14 138r22 138r32
+150U14 arbolHuffman 150b14 150=28 186l8 186t20 319s4
+150r28 h{12|9R9[53]} 160r26 162r29 163m24 165r27 167r31 168m27 179m17 185m11
+151r7 nodoIz{25R9} 171m27 173r31
+152r7 nodoDr{25R9} 172m26 173r49
+153r7 nodo{25R9} 173m13 174m13 178r42
+154p7 aIzq{34P9} 162m10 171r18 178r25 185r13
+155p7 aDr{34P9} 167m13 172r18 178r34
+156p7 a{34P9} 176m13 178r19 179r19
+190U14 recorridoAmplitud 190b14 190=33 222l8 222t25
+190r33 h{12|9R9[53]} 201r27
+192K15 dcolaA[16|5] 193r11
+195r7 q{16|8R12[192]} 202m13 202r13 204r28 205r34 206m25 206r25 214m19 214r19
+. 219m19 219r19
+196p7 arbolAux{34P9} 201m7 202r15 205m10 208r15 211r14 217r14
+197p7 arbolAux2{34P9} 210m10 211r27 213r28 214r21 216m10 217r27 218r28 219r21
+198r7 nodoPnt{25R9} 208m28 209r31 209r69
+227U14 genera_codi 227b14 227>27 227>41 227=59 227>84 227=103 247s16 259s16
+. 264l8 264t19 293s10
+227r27 x{14|6R9[30]} 234r25 236r15 243r17 255r17
+227e41 c{character} 237r36 247r32 259r32
+227b59 trobat{boolean} 237m10 239r17 247m35 251r17 259m35
+227i84 idx{integer} 245r23 246r26 247r44 257r23 258r26 259r43
+227r103 codi{13R9} 245m16 246m16 247m52 257m16 258m16 259m51
+228r7 nodo{25R9} 236m17 237r20
+229r7 l{14|6R9[30]} 242m20 243m20 244r31 247r29
+229r10 r{14|6R9[30]} 254m20 255m20 256r32 259r29
+270U14 writeFile 270b14 270=24 270=44 307l8 307t17 321s4
+270r24 s{21|7R9[20]} 288r15 290r18 304r20
+270r44 h{12|9R9[53]} 284r22
+271p7 f_salida{9|64P9} 286m14 286r14 296r14 299r17 301r19 306m13 306r13
+272e7 k{10E12} 290m25 293r30 296r35
+273i7 x{integer} 290m28
+274r7 it{21|18R9[20]} 288m18 289r23 290r21 304m23 304r23
+275r7 code{13R9} 281m7 293m44 293r44 298r22 299r26
+276p7 aHf{34P9} 284m7 293r22
+277b7 trobat{boolean} 282m7 293m33 293r33 303m10
+278i7 i{integer} 297m10
+298i14 i{integer} 299r33
+310r4 s{21|7R9[20]} 313m11 316m13 316r13 318m18 318r18 321m14 321r14
+311r4 h{12|9R9[53]} 314m10 318m20 318r20 319m17 319r17 321m16 321r16
+X 21 mapac.ads
+2E9 key 20|20r46
+3+9 item 20|20r62
+5k9*mapac 20|4w6 20r39 21|39e10
+7R9 conjunto 20|60r30[20] 77r37[20] 100r33[20] 117r38[20] 270r34[20] 310r7[20]
+11U14 cvacio 20|313s4[20]
+12U14 poner 20|93s12[20]
+15U14 actualiza 20|92s10[20]
+18R9 iterador 20|63r11[20] 79r14[20] 120r11[20] 274r11[20]
+20U14 primero 20|65s7[20] 83s7[20] 127s7[20] 288s7[20]
+21U14 siguiente 20|70s10[20] 88s15[20] 143s10[20] 304s10[20]
+22V13 es_valido{boolean} 20|66s13[20] 84s13[20] 128s13[20] 289s13[20]
+23U14 obtener 20|67s10[20] 85s10[20] 129s10[20] 290s10[20]
+
